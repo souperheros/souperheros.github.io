@@ -4,22 +4,77 @@
   <title>Souperheros</title>
     <meta name="description" content="Our first page">
     <meta name="keywords" content="html tutorial template">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Shrikhand&display=swap');
+  html, body {
+    font-size: 16pt;
+    font-family: "Libre Baskerville";
+    color: indigo;
+  }
+  #head {
+      text-align: center;
+  }
+  h1 {
+    font-family: "Shrikhand";
+    color: darkorchid;
+    font-weight: normal;
+    font-size: 3rem;
+    margin: 0;
+  }
+  #logo {
+    width: 100%;
+  }
+  nav>a{
+    transition: color 200ms, background 200ms;
+    text-decoration: none;
+    color: white;
+    background: indigo;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+  }
+  nav>a:hover {
+    color: white;
+    background: darkorchid;
+  }
+</style>
   </head>
   <body>
-    <img src="soupeur.png">
-    <h1>
-      The Souperheros
-    </h1>
-    <p>
-      A Period 2 APES Garden Project by Jeremy, An, Meg, Tony, Caden, Nicholas, and Xing.
-    </p>
-    <nav>
-      <a href="about">About us</a>
-      <a href="design">Garden design</a>
-      <a href="journal">Garden journal</a>
-      <a href="recipes">Recipes</a>
-      <a href="reflection">Reflection</a>
-      <a href="resources">Additional resources</a>
-    </nav>
+<section id="head">
+<img src="soupeur.png" id="logo">
+<h1>
+  The Souperheros
+</h1>
+<p>
+  A Period 2 APES Garden Project by Jeremy, An, Meg, Tony, Caden, Nicholas, and Xing.
+</p>
+<nav>
+<a href="#menu">Menu</a>
+<a href="#design">Garden design</a>
+<a href="#journal">Weekly journal</a>
+<a href="#recipes">Recipes</a>
+<a href="#reflection">Reflection</a>
+<a href="#about">About us</a>
+<a href="#resources">Additional resources</a>
+</nav>
+</section>
+<section id="journal">
+<h2>  Journal </h2>
+  <details>
+    <summary>Week 1</summary>
+    We did stuff
+  </details>
+  <details>
+    <summary>Week 2</summary>
+    We did stuff
+  </details>
+  <details>
+    <summary>Week 3</summary>
+    We did stuff
+  </details>
+  <details>
+    <summary>Week 4</summary>
+    We did stuff
+  </details>
+</section>
   </body>
 </html>
